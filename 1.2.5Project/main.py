@@ -58,7 +58,6 @@ def countdown():
     wn.bgpic("nopic") #remove background
     gru.hideturtle() #hide gru
     score_writer.clear() #hide the score
-    i = 1 #variable for index on list
     for minion in minions_list: #hide every minion and empty out the list
       minion.hideturtle()
     display_leaderboard() 
